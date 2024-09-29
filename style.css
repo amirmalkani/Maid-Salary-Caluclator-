@@ -1,0 +1,53 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Form Container Styling */
+.form-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+/* Footer Styling */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer Link Styling */
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 15px;
+    }
+}
